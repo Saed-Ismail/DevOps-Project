@@ -2,8 +2,8 @@ const express = require('express');
 const app = express();
 const port = 3000;
 
-app.get('/', (req, res) => {
-  res.send('Hello Saed, from EC2 Dockerized Node.js App!');
+app.get("/", (req, res) => {
+  res.send("✅ New version deployed using GitHub Actions + Terraform!");
 });
 
 app.listen(port, '0.0.0.0', () => {
